@@ -18,7 +18,8 @@ The boot sector is actually a special file, with a type of system (0x55) and "na
 0x38 to 0x3F - Library
 0x40 to 0x47 - Data file
 0x48 to 0x4F - Source file
-0x50 to 0x57 - Configuration file
+0x50 to 0x54, 0x56 and 0x57 - Configuration file
+0x55 - SYSTEM
 0x58 to 0x5F - Reserved for expansion
 ### User defined
 0x60 to 0xFE - User defined
