@@ -51,3 +51,4 @@ The boot sector is actually a special file, with a type of system (0x55) and "na
  ## Cool stuff
   - Super simple and easy to implement
   - It's technically a *"real"* filesystem
+  - If you lose 6 sectors, you lose 6 files, not the whole FS.
