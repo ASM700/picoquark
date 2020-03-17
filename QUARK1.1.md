@@ -4,7 +4,7 @@ This is an *updated* version of PicoQuark.
 
 ## Description
 
-No superblock, no complication. Each "file" is a multiple of 510 bytes. After each 510-byte "block" there is a 4-byte footer composed of:
+No superblock, no complication. Each "file" is a multiple of 508 bytes. After each 508-byte "block" there is a 4-byte footer composed of:
   - The next file "name" (0x0000 if free)
   - File type (byte)
   - File type (name)
