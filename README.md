@@ -1,6 +1,8 @@
 # Picoquark
 The simplest file system you have ever seen, literally.
 
+***NOTE:*** See v1.1
+
 ## Description
 No superblock, no complication. Each "file" is FIXED at 510 bytes. After that there is a 2-byte footer composed of the file type and the "name"(a byte).
 
